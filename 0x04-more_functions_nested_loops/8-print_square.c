@@ -10,12 +10,21 @@
 
 void print_square(int size)
 {
-	int row, col;
-
-	for (row = 1; row <= size; row++)
+	if (size <= 0)
 	{
-		for (col = 1; col <= size; col++)
-			_putchar('#');
-		_putchar('\n');
+		_putchar('\n');  /*If size is 0 or less, print only a new line*/
+	}
+	else
+	{
+		int i, j;
+
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');  /*Print the '#' character to form the square*/
+			}
+			_putchar('\n');  /*Move to the next line after each row*/
+		}
 	}
 }
