@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print 0 - 14 ten times
+ * more_numbers - print 0 - 14 ten times bay use _putchar
  *
  * Return: 0 (Seccess)
  *
