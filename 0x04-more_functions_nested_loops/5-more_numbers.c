@@ -4,7 +4,6 @@
  * more_numbers - print 0 - 14 ten times bay use _putchar
  *
  * Return: 0 (Seccess)
- *
 */
 
 void more_numbers(void);
